@@ -42,14 +42,14 @@ int main() {
     root->left->left = new TreeNode(10);
     root->left->right = new TreeNode(13);
 
-    root->left->right->right = new TreeNode(9);
+    root->left->right->left = new TreeNode(9);
     root->right->right = new TreeNode(8);
 
     cout << "Preorder: ";
     preorder(root);
     cout << endl;
 
-    cout << "Inorder: ";
+    cout << "Inorder: ";\
     inorder(root);
     cout << endl;
 
