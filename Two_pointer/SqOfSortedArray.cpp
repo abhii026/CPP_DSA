@@ -6,6 +6,12 @@ int main()
 {
     int arr[] = {-4, -1, 0, 3, 10};
     int size = sizeof(arr) / sizeof(arr[0]);
+    cout << "Original Array: ";
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
     vector<int> pos;
     vector<int> neg;
     for (int i = 0; i < size; i++)
